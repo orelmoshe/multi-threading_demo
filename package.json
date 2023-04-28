@@ -1,0 +1,17 @@
+{
+	"name": "node",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index_four_workers.js",
+	"scripts": {
+		"start": "node ./index_four_workers.js",
+		"start:oneWorker": "node ./index_one_workers.js",
+		"start:fourWorker": "node ./index_four_workers.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.2"
+	}
+}
